@@ -6,11 +6,15 @@ public class Exercise_4 : MonoBehaviour
 {
     // All multiples of 5 between the start and the end
 
-    public int start = 2;
-    public int end = 37;
+    public int start;
+    public int end;
 
     private void Start()
     {
-        
+        if(start <= end)
+        {
+            Debug.Log(start);
+            start += 5;
+        }
     }
 }
