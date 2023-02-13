@@ -5,16 +5,22 @@ using UnityEngine;
 public class Exercise_4 : MonoBehaviour
 {
     // All multiples of 5 between the start and the end
+    // use while loop
 
     public int start;
     public int end;
+    private int multipler = 5;
 
     private void Start()
     {
-        if(start <= end)
+        while(start <= end)
         {
-            Debug.Log(start);
-            start += 5;
+            if(start % multipler == 0)
+            {
+                Debug.Log(start);
+            }
+
+            start++;
         }
     }
 }
