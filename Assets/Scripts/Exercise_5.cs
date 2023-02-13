@@ -14,8 +14,8 @@ public class Exercise_5 : MonoBehaviour
         foreach(int number in sum)
         {
            result += number;
-           Debug.Log(result);
         }
+        Debug.Log(result);
     }
 
 }
