@@ -5,7 +5,6 @@ using UnityEngine;
 public class Exercise_4 : MonoBehaviour
 {
     // All multiples of 5 between the start and the end
-    // use while loop
 
     public int start;
     public int end;
